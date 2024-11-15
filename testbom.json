@@ -1,0 +1,273 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:73c1d76b-3697-48b6-af42-62c0e89b5fd2",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-11-15T16:18:22+01:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "author": "anchore",
+          "name": "syft",
+          "version": "1.14.0"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "ec0ab01fb0781249",
+      "type": "container",
+      "name": "sbom",
+      "version": "test"
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:cargo/app1@0.1.0?download_url=file://.&package-id=e62f99086dc96331",
+      "type": "library",
+      "name": "app1",
+      "version": "0.1.0",
+      "cpe": "cpe:2.3:a:app1:app1:0.1.0:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/app1@0.1.0?download_url=file://.",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "sbom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:377e92ff6628d172d43ad8629adc3adcd4bee2af3fbf61046994b829004934f1"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/app1.sbom.json"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/app2@0.1.0?download_url=file://.&package-id=722e1e2e0f682c37",
+      "type": "library",
+      "name": "app2",
+      "version": "0.1.0",
+      "cpe": "cpe:2.3:a:app2:app2:0.1.0:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/app2@0.1.0?download_url=file://.",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "sbom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:ea38d9341a5a532f7b78d4695e28d3c4d682ca26179840de8c0ea7f0afe7a309"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/app2.sbom.json"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/proc-macro2@1.0.89?package-id=650fa8a8f6afbdb1",
+      "type": "library",
+      "name": "proc-macro2",
+      "version": "1.0.89",
+      "licenses": [
+        {
+          "expression": "MIT OR Apache-2.0"
+        }
+      ],
+      "cpe": "cpe:2.3:a:proc-macro2:proc-macro2:1.0.89:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/proc-macro2@1.0.89",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "sbom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:proc-macro2:proc_macro2:1.0.89:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:proc_macro2:proc-macro2:1.0.89:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:proc_macro2:proc_macro2:1.0.89:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:proc:proc-macro2:1.0.89:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:proc:proc_macro2:1.0.89:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:377e92ff6628d172d43ad8629adc3adcd4bee2af3fbf61046994b829004934f1"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/app1.sbom.json"
+        },
+        {
+          "name": "syft:location:1:layerID",
+          "value": "sha256:ea38d9341a5a532f7b78d4695e28d3c4d682ca26179840de8c0ea7f0afe7a309"
+        },
+        {
+          "name": "syft:location:1:path",
+          "value": "/app2.sbom.json"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/unicode-ident@1.0.13?package-id=2e1fa3d573c312b3",
+      "type": "library",
+      "name": "unicode-ident",
+      "version": "1.0.13",
+      "cpe": "cpe:2.3:a:unicode-ident:unicode-ident:1.0.13:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/unicode-ident@1.0.13",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "sbom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:unicode-ident:unicode_ident:1.0.13:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:unicode_ident:unicode-ident:1.0.13:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:unicode_ident:unicode_ident:1.0.13:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:unicode:unicode-ident:1.0.13:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:unicode:unicode_ident:1.0.13:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:377e92ff6628d172d43ad8629adc3adcd4bee2af3fbf61046994b829004934f1"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/app1.sbom.json"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/unicode-ident@1.0.9?package-id=02c21796a7e4093c",
+      "type": "library",
+      "name": "unicode-ident",
+      "version": "1.0.9",
+      "cpe": "cpe:2.3:a:unicode-ident:unicode-ident:1.0.9:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/unicode-ident@1.0.9",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "sbom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:unicode-ident:unicode_ident:1.0.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:unicode_ident:unicode-ident:1.0.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:unicode_ident:unicode_ident:1.0.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:unicode:unicode-ident:1.0.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:unicode:unicode_ident:1.0.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:ea38d9341a5a532f7b78d4695e28d3c4d682ca26179840de8c0ea7f0afe7a309"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/app2.sbom.json"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:cargo/app1@0.1.0?download_url=file://.&package-id=e62f99086dc96331",
+      "dependsOn": [
+        "pkg:cargo/proc-macro2@1.0.89?package-id=650fa8a8f6afbdb1"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/app2@0.1.0?download_url=file://.&package-id=722e1e2e0f682c37",
+      "dependsOn": [
+        "pkg:cargo/proc-macro2@1.0.89?package-id=650fa8a8f6afbdb1",
+        "pkg:cargo/unicode-ident@1.0.9?package-id=02c21796a7e4093c"
+      ]
+    },
+    {
+      "ref": "pkg:cargo/proc-macro2@1.0.89?package-id=650fa8a8f6afbdb1",
+      "dependsOn": [
+        "pkg:cargo/unicode-ident@1.0.13?package-id=2e1fa3d573c312b3",
+        "pkg:cargo/unicode-ident@1.0.9?package-id=02c21796a7e4093c"
+      ]
+    }
+  ]
+}
