@@ -1,0 +1,387 @@
+{
+ "spdxVersion": "SPDX-2.3",
+ "dataLicense": "CC0-1.0",
+ "SPDXID": "SPDXRef-DOCUMENT",
+ "name": "sbom",
+ "documentNamespace": "https://anchore.com/syft/image/sbom-491df492-52a0-47af-ab3e-ce7f01a8ac9d",
+ "creationInfo": {
+  "licenseListVersion": "3.25",
+  "creators": [
+   "Organization: Anchore, Inc",
+   "Tool: syft-1.14.0"
+  ],
+  "created": "2024-11-19T12:40:31Z"
+ },
+ "packages": [
+  {
+   "name": "Gson",
+   "SPDXID": "SPDXRef-Package-java-archive-Gson-9a9f6f119969b544",
+   "versionInfo": "2.11.0",
+   "supplier": "NOASSERTION",
+   "downloadLocation": "NOASSERTION",
+   "filesAnalyzed": false,
+   "sourceInfo": "acquired package info from SBOM: /app1.sbom.json, /app2.sbom.json",
+   "licenseConcluded": "NOASSERTION",
+   "licenseDeclared": "Apache-2.0",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:Gson:Gson:2.11.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:maven/com.google.code.gson/gson@2.11.0"
+    }
+   ]
+  },
+  {
+   "name": "error-prone annotations",
+   "SPDXID": "SPDXRef-Package-java-archive-error-prone-annotations-c1240f131bd7713c",
+   "versionInfo": "2.26.1",
+   "supplier": "NOASSERTION",
+   "downloadLocation": "NOASSERTION",
+   "filesAnalyzed": false,
+   "sourceInfo": "acquired package info from SBOM: /app2.sbom.json",
+   "licenseConcluded": "NOASSERTION",
+   "licenseDeclared": "Apache-2.0",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:error-prone_annotations:error-prone_annotations:2.26.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:error-prone_annotations:error_prone_annotations:2.26.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:error_prone_annotations:error-prone_annotations:2.26.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:error_prone_annotations:error_prone_annotations:2.26.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:error:error-prone_annotations:2.26.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:error:error_prone_annotations:2.26.1:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:maven/com.google.errorprone/error_prone_annotations@2.26.1"
+    }
+   ]
+  },
+  {
+   "name": "error-prone annotations",
+   "SPDXID": "SPDXRef-Package-java-archive-error-prone-annotations-ae1b0f5a6438aeea",
+   "versionInfo": "2.27.0",
+   "supplier": "NOASSERTION",
+   "downloadLocation": "NOASSERTION",
+   "filesAnalyzed": false,
+   "sourceInfo": "acquired package info from SBOM: /app1.sbom.json",
+   "licenseConcluded": "NOASSERTION",
+   "licenseDeclared": "Apache-2.0",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:error-prone_annotations:error-prone_annotations:2.27.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:error-prone_annotations:error_prone_annotations:2.27.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:error_prone_annotations:error-prone_annotations:2.27.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:error_prone_annotations:error_prone_annotations:2.27.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:error:error-prone_annotations:2.27.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:error:error_prone_annotations:2.27.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:maven/com.google.errorprone/error_prone_annotations@2.27.0"
+    }
+   ]
+  },
+  {
+   "name": "java-app",
+   "SPDXID": "SPDXRef-Package-java-archive-java-app-185b9e77075690fa",
+   "versionInfo": "1.0.0",
+   "supplier": "NOASSERTION",
+   "downloadLocation": "NOASSERTION",
+   "filesAnalyzed": false,
+   "sourceInfo": "acquired package info from SBOM: /app1.sbom.json",
+   "licenseConcluded": "NOASSERTION",
+   "licenseDeclared": "NOASSERTION",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:java-app:java-app:1.0.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:java-app:java_app:1.0.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:java_app:java-app:1.0.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:java_app:java_app:1.0.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:java:java-app:1.0.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:java:java_app:1.0.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:maven/com.example/java-app@1.0.0"
+    }
+   ]
+  },
+  {
+   "name": "java-app2",
+   "SPDXID": "SPDXRef-Package-java-archive-java-app2-1e5bddb3c26c8835",
+   "versionInfo": "1.0.0",
+   "supplier": "NOASSERTION",
+   "downloadLocation": "NOASSERTION",
+   "filesAnalyzed": false,
+   "sourceInfo": "acquired package info from SBOM: /app2.sbom.json",
+   "licenseConcluded": "NOASSERTION",
+   "licenseDeclared": "NOASSERTION",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:java-app2:java-app2:1.0.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:java-app2:java_app2:1.0.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:java_app2:java-app2:1.0.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:java_app2:java_app2:1.0.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:java:java-app2:1.0.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:java:java_app2:1.0.0:*:*:*:*:*:*:*"
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:maven/com.example/java-app2@1.0.0"
+    }
+   ]
+  },
+  {
+   "name": "sbom",
+   "SPDXID": "SPDXRef-DocumentRoot-Image-sbom",
+   "versionInfo": "test",
+   "supplier": "NOASSERTION",
+   "downloadLocation": "NOASSERTION",
+   "filesAnalyzed": false,
+   "checksums": [
+    {
+     "algorithm": "SHA256",
+     "checksumValue": "71e26c926aa61c063f1ebbb858fb17c789642b20f294d46fdb18288672c249d6"
+    }
+   ],
+   "licenseConcluded": "NOASSERTION",
+   "licenseDeclared": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:oci/sbom@sha256:71e26c926aa61c063f1ebbb858fb17c789642b20f294d46fdb18288672c249d6?arch=amd64&tag=test"
+    }
+   ],
+   "primaryPackagePurpose": "CONTAINER"
+  }
+ ],
+ "files": [
+  {
+   "fileName": "/app1.sbom.json",
+   "SPDXID": "SPDXRef-File-app1.sbom.json-2ac2320c7e234387",
+   "fileTypes": [
+    "APPLICATION"
+   ],
+   "checksums": [
+    {
+     "algorithm": "SHA1",
+     "checksumValue": "0efb6bad6b6c141474b65d8a6b71859878344928"
+    },
+    {
+     "algorithm": "SHA256",
+     "checksumValue": "c2f57b5eb7d4978566fa7bd5051f6135941ad288808fc80136b8c4facde263f3"
+    }
+   ],
+   "licenseConcluded": "NOASSERTION",
+   "licenseInfoInFiles": [
+    "NOASSERTION"
+   ],
+   "copyrightText": "",
+   "comment": "layerID: sha256:29a341711d869b48b47e4c7174b0fc483ceb159a2bf1c72b9b1c149baaf479bf"
+  },
+  {
+   "fileName": "/app2.sbom.json",
+   "SPDXID": "SPDXRef-File-app2.sbom.json-326b602493b0d41d",
+   "fileTypes": [
+    "APPLICATION"
+   ],
+   "checksums": [
+    {
+     "algorithm": "SHA1",
+     "checksumValue": "1c5eebd3deaed908787c015ee89acb787ab829dc"
+    },
+    {
+     "algorithm": "SHA256",
+     "checksumValue": "0e5e2367dcc50e2956787bcaebc4db14ffff03568d5efce83584dbeecd8832f8"
+    }
+   ],
+   "licenseConcluded": "NOASSERTION",
+   "licenseInfoInFiles": [
+    "NOASSERTION"
+   ],
+   "copyrightText": "",
+   "comment": "layerID: sha256:add11ed721a5de289cb90f545900ebb949633698cf1b06a8f8d726bb8a5bf7df"
+  }
+ ],
+ "relationships": [
+  {
+   "spdxElementId": "SPDXRef-Package-java-archive-java-app-185b9e77075690fa",
+   "relatedSpdxElement": "SPDXRef-5f525520c6f7bbcd",
+   "relationshipType": "CONTAINS"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-java-archive-java-app2-1e5bddb3c26c8835",
+   "relatedSpdxElement": "SPDXRef-039553163a33603d",
+   "relationshipType": "CONTAINS"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-java-archive-java-app-185b9e77075690fa",
+   "relatedSpdxElement": "SPDXRef-File-app1.sbom.json-2ac2320c7e234387",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-java-archive-java-app2-1e5bddb3c26c8835",
+   "relatedSpdxElement": "SPDXRef-File-app2.sbom.json-326b602493b0d41d",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-java-archive-Gson-9a9f6f119969b544",
+   "relatedSpdxElement": "SPDXRef-File-app1.sbom.json-2ac2320c7e234387",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-java-archive-Gson-9a9f6f119969b544",
+   "relatedSpdxElement": "SPDXRef-File-app2.sbom.json-326b602493b0d41d",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-java-archive-error-prone-annotations-ae1b0f5a6438aeea",
+   "relatedSpdxElement": "SPDXRef-File-app1.sbom.json-2ac2320c7e234387",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-Package-java-archive-error-prone-annotations-c1240f131bd7713c",
+   "relatedSpdxElement": "SPDXRef-File-app2.sbom.json-326b602493b0d41d",
+   "relationshipType": "OTHER",
+   "comment": "evident-by: indicates the package's existence is evident by the given file"
+  },
+  {
+   "spdxElementId": "SPDXRef-DocumentRoot-Image-sbom",
+   "relatedSpdxElement": "SPDXRef-Package-java-archive-Gson-9a9f6f119969b544",
+   "relationshipType": "CONTAINS"
+  },
+  {
+   "spdxElementId": "SPDXRef-DocumentRoot-Image-sbom",
+   "relatedSpdxElement": "SPDXRef-Package-java-archive-error-prone-annotations-c1240f131bd7713c",
+   "relationshipType": "CONTAINS"
+  },
+  {
+   "spdxElementId": "SPDXRef-DocumentRoot-Image-sbom",
+   "relatedSpdxElement": "SPDXRef-Package-java-archive-error-prone-annotations-ae1b0f5a6438aeea",
+   "relationshipType": "CONTAINS"
+  },
+  {
+   "spdxElementId": "SPDXRef-DocumentRoot-Image-sbom",
+   "relatedSpdxElement": "SPDXRef-Package-java-archive-java-app-185b9e77075690fa",
+   "relationshipType": "CONTAINS"
+  },
+  {
+   "spdxElementId": "SPDXRef-DocumentRoot-Image-sbom",
+   "relatedSpdxElement": "SPDXRef-Package-java-archive-java-app2-1e5bddb3c26c8835",
+   "relationshipType": "CONTAINS"
+  },
+  {
+   "spdxElementId": "SPDXRef-DOCUMENT",
+   "relatedSpdxElement": "SPDXRef-DocumentRoot-Image-sbom",
+   "relationshipType": "DESCRIBES"
+  }
+ ]
+}
